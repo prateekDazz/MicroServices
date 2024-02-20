@@ -1,0 +1,38 @@
+spring:
+  config:
+    import:
+      - "application_prod.yml"
+      - "application_qa.yml"
+  profiles:
+    active:
+      - "prod"
+  cloud:
+    config:
+      enabled: false
+  application:
+    name: "accounts"
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+#  config:
+#    import: "optional:configserver:http://localhost:8071/"
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to Accounts Microservice "
+  contactDetails:
+    name: "prateek"
+    email: "prateeksinghengnr@gmail.com"
+  callSupport:
+    -(555)555-1234
+    -(555)523-1987
