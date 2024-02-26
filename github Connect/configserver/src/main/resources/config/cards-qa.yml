@@ -1,0 +1,14 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+build:
+  version: "2.0"
+cards:
+  message: "Welcome to Cards QA Microservice "
+  contactDetails:
+    name: "Rohan QA Lead"
+    email: "Rohan@gmail.com"
+  callSupport:
+    -(555)555-1234
+    -(555)523-1987

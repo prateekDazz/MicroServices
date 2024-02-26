@@ -1,0 +1,14 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+build:
+  version: "1.0"
+cards:
+  message: "Welcome to cards Prod Microservice "
+  contactDetails:
+    name: "Devi Prod Lead"
+    email: "devihengnr@gmail.com"
+  callSupport:
+    -(555)555-1234
+    -(555)523-1987

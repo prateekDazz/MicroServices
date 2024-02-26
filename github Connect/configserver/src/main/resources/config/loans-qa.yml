@@ -1,0 +1,10 @@
+build:
+  version: "2.0"
+loans:
+  message: "Welcome to Loans QA Microservice "
+  contactDetails:
+    name: "Rohan QA Lead"
+    email: "Rohan@gmail.com"
+  callSupport:
+    -(555)555-1234
+    -(555)523-1987

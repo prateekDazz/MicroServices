@@ -1,0 +1,10 @@
+build:
+  version: "1.0"
+loans:
+  message: "Welcome to Loans Prod Microservice "
+  contactDetails:
+    name: "Devi Prod Lead"
+    email: "devihengnr@gmail.com"
+  callSupport:
+    -(555)555-1234
+    -(555)523-1987
