@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to Accounts Microservice "
+  contactDetails:
+    name: "prateek"
+    email: "{cipher}5e542ac5325118df32d8df050f6242ce439a327ed1765a4c20d39941315396efa48b1711f1706028a55b38e0f1e79b7b"
+  callSupport:
+    -(555)555-1234
+    -(555)523-1987

@@ -1,0 +1,10 @@
+build:
+  version: "2.0"
+accounts:
+  message: "Welcome to Accounts QA Microservice "
+  contactDetails:
+    name: "Rohan QA Lead"
+    email: "{cipher}5ffa54512a873f7474e0d04ff26de806376f4b832efcc847289793ddb4e32cf809c895a4b66beffb38e6906a738bf16f"
+  callSupport:
+    -(555)555-1234
+    -(555)523-1987

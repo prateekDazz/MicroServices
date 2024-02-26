@@ -1,0 +1,10 @@
+build:
+  version: "1.0"
+accounts:
+  message: "Welcome to Accounts production Microservice "
+  contactDetails:
+    name: "LAl Production Lead"
+    email: "{cipher}83947dfdbf5a48cd1ae2652a88d9cb22916a98e7e3fcc1052b3857d20921a23a0ffed568a9f8211b8525d79db8e72e94"
+  callSupport:
+    -(555)555-1234
+    -(555)523-1987
